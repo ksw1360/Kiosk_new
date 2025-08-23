@@ -1,0 +1,697 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="그룹_116_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\그룹 116_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0116" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0116.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key backs1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key backs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="상단_이전버튼" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\상단 이전버튼.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key shift2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key shift2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0308" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0308.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="password" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\password.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0216" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0216.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0114" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0114.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="내원 경로" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\내원 경로.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0412ON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0412on.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0505" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0505.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key tab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key tab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0212" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0212.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0401" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0401.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="접수하기_01_세로" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\접수하기_01_세로.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 특0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 특0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0501" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0501.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0407" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0407.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="내원한적있음_버튼" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\내원한적있음_버튼.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0507" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0507.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key r" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key r.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 81" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0112" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0112.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0206" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0206.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0302" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0302.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="상단버튼_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\상단버튼_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ID입력_아이콘" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ID입력 아이콘.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0503" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0503.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0208" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0208.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0207" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0207.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0306" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0306.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key caps" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key caps.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0310" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0310.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="전문보기" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\전문보기.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key k" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0502" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0502.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0110" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0110.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0109" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0109.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0401ON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0401on.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0303" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0303.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0406" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0406.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0404" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0404.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key c.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="그룹_116_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\그룹 116_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0506" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0506.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReceiptMain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ReceiptMain.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0108" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0108.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key i.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="접수" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\접수.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key enter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key enter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="상단_다음버튼" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\상단 다음버튼.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0405" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0405.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0117" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0117.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key w" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key w.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 특8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 특8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0213" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0213.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0309" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0309.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 특10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 특10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0203" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0203.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 특" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 특.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0402" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0402.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key p.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="다음2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\다음2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key z" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key z.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0408" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0408.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key f.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0307" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0307.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main화면" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Main화면.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0201" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0201.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="확인" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\확인.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0101" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0101.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="그룹_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\그룹 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0301" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0301.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="그룹_117" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\그룹 117.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key alt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key alt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0205" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0205.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0105" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0105.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0410" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0410.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0305" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0305.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="뒤로가기_주민등록번호" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\뒤로가기_주민등록번호.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="다음_버튼_new_이게_진짜" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\다음_버튼_new_이게 진짜.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0409" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0409.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key g" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key g.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key shift" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key shift.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key q" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key q.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0202" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0202.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 특1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 특.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="처음내원_버튼" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\처음내원_버튼.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ID" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\ID.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0509" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0509.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0311" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0311.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 특6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 특6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key e" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key e.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 특5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 특5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0411" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0411.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0304" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0304.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="접수하기_01_세로_크기조정" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\접수하기_01_세로_크기조정.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key backs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key backs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="사각형 5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\사각형 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0102" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0102.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key y" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key y.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0209" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0209.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="다음_버튼_선택" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\다음_버튼_선택.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="검색" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\검색.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0204" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0204.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0505HANGUL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0505hangul.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0106" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0106.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0413" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0413.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0510" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0510.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key l" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key l.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 91" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="다음_버튼" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\다음_버튼.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key u" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key u.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="시술 구분" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\시술 구분.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="이전2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\이전2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0312" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0312.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key j" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key j.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0113" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0113.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="상단_다음버튼_색반전" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\상단 다음버튼_색반전.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="핸드폰번호입력" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\핸드폰번호입력.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0104" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0104.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key v" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key v.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 특4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 특4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="다음1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\다음1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 특9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 특9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key t" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key t.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0103" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0103.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 특2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 특2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key s" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key s.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key m" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key m.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="다음_버튼_new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\다음_버튼_new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0511" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0511.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="아니오" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\아니오.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="예" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\예.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0107" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0107.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0412" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0412.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="사각형 32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\사각형 32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0504" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0504.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0508" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0508.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0403" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0403.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 특7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 특7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0210" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0210.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key spacebar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key spacebar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="상단버튼" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\상단버튼.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0313" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0313.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0215" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0215.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="이전_버튼" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\이전_버튼.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0115" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0115.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0301ON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0301on.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0505ENGLISH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0505english.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key contrl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key contrl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key 특3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key 특3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0214" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0214.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0211" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0211.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="이전1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\이전1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0111.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="사각형 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\사각형 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login_세로버전" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login_세로버전.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K0217" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k0217.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOGIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LOGIN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

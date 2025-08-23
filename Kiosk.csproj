@@ -1,0 +1,668 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4CE338DC-8B31-4FD8-A64B-3EC8CE051F87}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Kiosk</RootNamespace>
+    <AssemblyName>Kiosk</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>게시\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Kiosk.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.9.0.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
+      <HintPath>packages\Portable.BouncyCastle.1.9.0\lib\net40\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonControls">
+      <HintPath>.\CommonControls.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\CommonLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Gma.UserActivityMonitor">
+      <HintPath>.\Gma.UserActivityMonitor.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.21.9.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>packages\Google.Protobuf.3.21.9\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.3.5.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>packages\K4os.Compression.LZ4.1.3.5\lib\net462\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.3.5.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>packages\K4os.Compression.LZ4.Streams.1.3.5\lib\net462\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.8.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <HintPath>packages\K4os.Hash.xxHash.1.0.8\lib\net462\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>packages\log4net.2.0.15\lib\net45\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.7.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Motion.CommonControls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Motion.CommonControls.dll</HintPath>
+    </Reference>
+    <Reference Include="Motion.CommonLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Motion.CommonLib.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.1.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>packages\MySql.Data.8.1.0\lib\net462\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="RestSharp, Version=110.2.0.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
+      <HintPath>packages\RestSharp.110.2.0\lib\net471\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Configuration.ConfigurationManager.4.4.1\lib\net461\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=7.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Diagnostics.DiagnosticSource.7.0.2\lib\net462\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipelines, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.IO.Pipelines.5.0.2\lib\net461\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Text.Encodings.Web.7.0.0\lib\net462\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=7.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Text.Json.7.0.2\lib\net462\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.WinControls, Version=2021.1.223.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.GridView, Version=2021.1.223.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.UI, Version=2021.1.223.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="TelerikCommon, Version=2021.1.223.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="WindowsInput, Version=6.4.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\WindowsInput.6.4.1\lib\net461\WindowsInput.dll</HintPath>
+    </Reference>
+    <Reference Include="ZstdSharp, Version=0.7.1.0, Culture=neutral, PublicKeyToken=8d151af33a4ad5cf, processorArchitecture=MSIL">
+      <HintPath>packages\ZstdSharp.Port.0.7.1\lib\net461\ZstdSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseForm.Designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class\CircularButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Class\Common.cs" />
+    <Compile Include="Class\CommonSms.cs" />
+    <Compile Include="Class\CreatorSmsFactory.cs" />
+    <Compile Include="Class\DaumAdress.cs" />
+    <Compile Include="Class\DBCommon.cs" />
+    <Compile Include="Class\DBCommon2.cs" />
+    <Compile Include="Class\Receipt.cs" />
+    <Compile Include="Class\SendSms.cs" />
+    <Compile Include="Class\VKeyboard.cs" />
+    <Compile Include="CommonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommonForm.Designer.cs">
+      <DependentUpon>CommonForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\ErrorPopupMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\ErrorPopupMessage.Designer.cs">
+      <DependentUpon>ErrorPopupMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SurgeryKind2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SurgeryKind2.Designer.cs">
+      <DependentUpon>SurgeryKind2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TriupUpdate\ClsMotionDB.cs" />
+    <Compile Include="TriupUpdate\cMasterData.cs" />
+    <Compile Include="TriupUpdate\cMasterItem.cs" />
+    <Compile Include="TriupUpdate\cMasterList.cs" />
+    <Compile Include="TriupUpdate\DBContactor.cs" />
+    <Compile Include="TriupUpdate\DllClass.cs" />
+    <Compile Include="TriupUpdate\FrmUpdateHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TriupUpdate\FrmUpdateHistory.Designer.cs">
+      <DependentUpon>FrmUpdateHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TriupUpdate\FrmWaitingBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TriupUpdate\FrmWaitingBar.Designer.cs">
+      <DependentUpon>FrmWaitingBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TriupUpdate\INI.cs" />
+    <Compile Include="TriupUpdate\INI_File.cs" />
+    <Compile Include="InputAddress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputAddress.Designer.cs">
+      <DependentUpon>InputAddress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InputMobileNo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputMobileNo.Designer.cs">
+      <DependentUpon>InputMobileNo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InputMobileNo_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputMobileNo_Add.Designer.cs">
+      <DependentUpon>InputMobileNo_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InputPersonalNO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputPersonalNO.Designer.cs">
+      <DependentUpon>InputPersonalNO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn.Designer.cs">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainform.Designer.cs">
+      <DependentUpon>Mainform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class\MyMessageFilter.cs" />
+    <Compile Include="Popup\PersonalChoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\PersonalChoice.Designer.cs">
+      <DependentUpon>PersonalChoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\PersonInfoRule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\PersonInfoRule.Designer.cs">
+      <DependentUpon>PersonInfoRule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\PopChangePW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\PopChangePW.Designer.cs">
+      <DependentUpon>PopChangePW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\PopupAddressApi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\PopupAddressApi.Designer.cs">
+      <DependentUpon>PopupAddressApi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\PopupContinue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\PopupContinue.Designer.cs">
+      <DependentUpon>PopupContinue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\PopupMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\PopupMessage.Designer.cs">
+      <DependentUpon>PopupMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\PopupMessageQuestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\PopupMessageQuestion.Designer.cs">
+      <DependentUpon>PopupMessageQuestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\Ptnt_List_Popup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\Ptnt_List_Popup.Designer.cs">
+      <DependentUpon>Ptnt_List_Popup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\ykihoInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\ykihoInput.Designer.cs">
+      <DependentUpon>ykihoInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PtntInfoShow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PtntInfoShow.Designer.cs">
+      <DependentUpon>PtntInfoShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReceiptInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReceiptInfo.Designer.cs">
+      <DependentUpon>ReceiptInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sub_NewPtnt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sub_NewPtnt.Designer.cs">
+      <DependentUpon>Sub_NewPtnt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Temp\Design_Test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Temp\Design_Test.Designer.cs">
+      <DependentUpon>Design_Test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Temp\SerialPortSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Temp\SerialPortSearch.Designer.cs">
+      <DependentUpon>SerialPortSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TriupUpdate\LOG_FILE.cs" />
+    <Compile Include="TriupUpdate\M\Fetch_Version_List.cs" />
+    <Compile Include="TriupUpdate\M\version_list.cs" />
+    <Compile Include="TriupUpdate\tProtectedData.cs" />
+    <EmbeddedResource Include="BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonForm.resx">
+      <DependentUpon>CommonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InputAddress.resx">
+      <DependentUpon>InputAddress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InputMobileNo.resx">
+      <DependentUpon>InputMobileNo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InputMobileNo_Add.resx">
+      <DependentUpon>InputMobileNo_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InputPersonalNO.resx">
+      <DependentUpon>InputPersonalNO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIn.resx">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainform.resx">
+      <DependentUpon>Mainform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\ErrorPopupMessage.resx">
+      <DependentUpon>ErrorPopupMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\PersonalChoice.resx">
+      <DependentUpon>PersonalChoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\PersonInfoRule.resx">
+      <DependentUpon>PersonInfoRule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\PopChangePW.resx">
+      <DependentUpon>PopChangePW.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\PopupAddressApi.resx">
+      <DependentUpon>PopupAddressApi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\PopupContinue.resx">
+      <DependentUpon>PopupContinue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\PopupMessage.resx">
+      <DependentUpon>PopupMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\PopupMessageQuestion.resx">
+      <DependentUpon>PopupMessageQuestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\Ptnt_List_Popup.resx">
+      <DependentUpon>Ptnt_List_Popup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\ykihoInput.resx">
+      <DependentUpon>ykihoInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PtntInfoShow.resx">
+      <DependentUpon>PtntInfoShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReceiptInfo.resx">
+      <DependentUpon>ReceiptInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sub_NewPtnt.resx">
+      <DependentUpon>Sub_NewPtnt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SurgeryKind2.resx">
+      <DependentUpon>SurgeryKind2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Temp\Design_Test.resx">
+      <DependentUpon>Design_Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Temp\SerialPortSearch.resx">
+      <DependentUpon>SerialPortSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include=".editorconfig" />
+    <None Include="log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\접수하기_01_세로.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\내원한적있음_버튼.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\다음_버튼.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\이전_버튼.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\접수하기_01_세로_크기조정.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\처음내원_버튼.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\다음_버튼_선택.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ReceiptMain.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\핸드폰번호입력.png" />
+    <None Include="Resources\상단버튼.png" />
+    <None Include="Resources\상단버튼_2.png" />
+    <None Include="Resources\상단 다음버튼.png" />
+    <None Include="Resources\상단 이전버튼.png" />
+    <None Include="Resources\2_1.png" />
+    <None Include="Resources\1_1.png" />
+    <None Include="Resources\ID입력 아이콘.png" />
+    <Content Include="Class\CommonLib.dll" />
+    <Content Include="icon\01.png" />
+    <Content Include="icon\02.png" />
+    <Content Include="icon\03.png" />
+    <None Include="Resources\다음_버튼_new_이게 진짜.png" />
+    <None Include="Resources\다음_버튼_new.png" />
+    <None Include="Resources\그룹 116_2.png" />
+    <None Include="Resources\그룹 116_1.png" />
+    <None Include="Resources\그룹 117.png" />
+    <None Include="Resources\그룹 4.png" />
+    <None Include="Resources\k0101.jpg" />
+    <None Include="Resources\k0102.jpg" />
+    <None Include="Resources\k0103.jpg" />
+    <None Include="Resources\k0104.jpg" />
+    <None Include="Resources\k0105.jpg" />
+    <None Include="Resources\k0106.jpg" />
+    <None Include="Resources\k0107.jpg" />
+    <None Include="Resources\k0108.jpg" />
+    <None Include="Resources\k0109.jpg" />
+    <None Include="Resources\k0110.jpg" />
+    <None Include="Resources\k0111.jpg" />
+    <None Include="Resources\k0112.jpg" />
+    <None Include="Resources\k0113.jpg" />
+    <None Include="Resources\k0114.jpg" />
+    <None Include="Resources\k0115.jpg" />
+    <None Include="Resources\k0116.jpg" />
+    <None Include="Resources\k0117.jpg" />
+    <None Include="Resources\k0201.jpg" />
+    <None Include="Resources\k0202.jpg" />
+    <None Include="Resources\k0203.jpg" />
+    <None Include="Resources\k0204.jpg" />
+    <None Include="Resources\k0205.jpg" />
+    <None Include="Resources\k0206.jpg" />
+    <None Include="Resources\k0207.jpg" />
+    <None Include="Resources\k0208.jpg" />
+    <None Include="Resources\k0209.jpg" />
+    <None Include="Resources\k0210.jpg" />
+    <None Include="Resources\k0211.jpg" />
+    <None Include="Resources\k0212.jpg" />
+    <None Include="Resources\k0213.jpg" />
+    <None Include="Resources\k0214.jpg" />
+    <None Include="Resources\k0215.jpg" />
+    <None Include="Resources\k0216.jpg" />
+    <None Include="Resources\k0217.jpg" />
+    <None Include="Resources\k0301.jpg" />
+    <None Include="Resources\k0301on.jpg" />
+    <None Include="Resources\k0302.jpg" />
+    <None Include="Resources\k0303.jpg" />
+    <None Include="Resources\k0304.jpg" />
+    <None Include="Resources\k0305.jpg" />
+    <None Include="Resources\k0306.jpg" />
+    <None Include="Resources\k0307.jpg" />
+    <None Include="Resources\k0308.jpg" />
+    <None Include="Resources\k0309.jpg" />
+    <None Include="Resources\k0310.jpg" />
+    <None Include="Resources\k0311.jpg" />
+    <None Include="Resources\k0312.jpg" />
+    <None Include="Resources\k0313.jpg" />
+    <None Include="Resources\k0401.jpg" />
+    <None Include="Resources\k0401on.jpg" />
+    <None Include="Resources\k0402.jpg" />
+    <None Include="Resources\k0403.jpg" />
+    <None Include="Resources\k0404.jpg" />
+    <None Include="Resources\k0405.jpg" />
+    <None Include="Resources\k0406.jpg" />
+    <None Include="Resources\k0407.jpg" />
+    <None Include="Resources\k0408.jpg" />
+    <None Include="Resources\k0409.jpg" />
+    <None Include="Resources\k0410.jpg" />
+    <None Include="Resources\k0411.jpg" />
+    <None Include="Resources\k0412.jpg" />
+    <None Include="Resources\k0412on.jpg" />
+    <None Include="Resources\k0413.jpg" />
+    <None Include="Resources\k0501.jpg" />
+    <None Include="Resources\k0502.jpg" />
+    <None Include="Resources\k0503.jpg" />
+    <None Include="Resources\k0504.jpg" />
+    <None Include="Resources\k0505.jpg" />
+    <None Include="Resources\k0505english.jpg" />
+    <None Include="Resources\k0505hangul.jpg" />
+    <None Include="Resources\k0506.jpg" />
+    <None Include="Resources\k0507.jpg" />
+    <None Include="Resources\k0508.jpg" />
+    <None Include="Resources\k0509.jpg" />
+    <None Include="Resources\k0510.jpg" />
+    <None Include="Resources\k0511.jpg" />
+    <None Include="Resources\상단 다음버튼_색반전.png" />
+    <None Include="Resources\뒤로가기_주민등록번호.png" />
+    <None Include="Resources\Login_세로버전.png" />
+    <None Include="Resources\Main화면.png" />
+    <None Include="icon\ID.png" />
+    <None Include="icon\password.png" />
+    <Content Include="Resources\key 0.png" />
+    <Content Include="Resources\key 1.png" />
+    <Content Include="Resources\key 2.png" />
+    <Content Include="Resources\key 3.png" />
+    <Content Include="Resources\key 4.png" />
+    <Content Include="Resources\key 5.png" />
+    <Content Include="Resources\key 6.png" />
+    <Content Include="Resources\key 7.png" />
+    <Content Include="Resources\key 8.png" />
+    <Content Include="Resources\key 9.png" />
+    <None Include="Resources\key a.png" />
+    <Content Include="Resources\key alt.png" />
+    <Content Include="Resources\key b.png" />
+    <Content Include="Resources\key backs.png" />
+    <Content Include="Resources\key c.png" />
+    <Content Include="Resources\key caps.png" />
+    <Content Include="Resources\key contrl.png" />
+    <Content Include="Resources\key d.png" />
+    <Content Include="Resources\key e.png" />
+    <Content Include="Resources\key enter.png" />
+    <Content Include="Resources\key f.png" />
+    <Content Include="Resources\key g.png" />
+    <Content Include="Resources\key h.png" />
+    <Content Include="Resources\key i.png" />
+    <Content Include="Resources\key j.png" />
+    <Content Include="Resources\key k.png" />
+    <Content Include="Resources\key l.png" />
+    <Content Include="Resources\key m.png" />
+    <Content Include="Resources\key n.png" />
+    <Content Include="Resources\key o.png" />
+    <Content Include="Resources\key p.png" />
+    <Content Include="Resources\key q.png" />
+    <Content Include="Resources\key r.png" />
+    <Content Include="Resources\key s.png" />
+    <Content Include="Resources\key shift.png" />
+    <Content Include="Resources\key shift2.png" />
+    <Content Include="Resources\key spacebar.png" />
+    <Content Include="Resources\key t.png" />
+    <Content Include="Resources\key tab.png" />
+    <Content Include="Resources\key u.png" />
+    <Content Include="Resources\key v.png" />
+    <Content Include="Resources\key w.png" />
+    <Content Include="Resources\key x.png" />
+    <Content Include="Resources\key y.png" />
+    <Content Include="Resources\key z.png" />
+    <Content Include="Resources\key `.png" />
+    <Content Include="Resources\key 특.png" />
+    <None Include="Resources\key 특0.png" />
+    <Content Include="Resources\key 특10.png" />
+    <Content Include="Resources\key 특2.png" />
+    <None Include="Resources\key 특3.png" />
+    <None Include="Resources\key 특4.png" />
+    <Content Include="Resources\key 특5.png" />
+    <Content Include="Resources\key 특6.png" />
+    <Content Include="Resources\key 특7.png" />
+    <Content Include="Resources\key 특8.png" />
+    <Content Include="Resources\key 특9.png" />
+    <None Include="Resources\key_01.png" />
+    <None Include="Resources\LOGIN.png" />
+    <Content Include="Resources\검색.png" />
+    <Content Include="Resources\내원 경로.png" />
+    <None Include="Resources\다음1.png" />
+    <None Include="Resources\다음2.png" />
+    <Content Include="Resources\사각형 32.png" />
+    <Content Include="Resources\사각형 4.png" />
+    <Content Include="Resources\사각형 5.png" />
+    <Content Include="Resources\시술 구분.png" />
+    <Content Include="Resources\아니오.png" />
+    <Content Include="Resources\예.png" />
+    <None Include="Resources\이전1.png" />
+    <None Include="Resources\이전2.png" />
+    <Content Include="Resources\전문보기.png" />
+    <Content Include="Resources\접수.png" />
+    <Content Include="Resources\확인.png" />
+    <Content Include="vkb.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2%28x86 및 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
